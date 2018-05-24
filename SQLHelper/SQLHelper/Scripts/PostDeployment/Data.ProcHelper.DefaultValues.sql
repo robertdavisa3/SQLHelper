@@ -1,0 +1,22 @@
+﻿INSERT INTO ProcHelper.DefaultValues
+(
+    ColumnName
+    ,Value
+)
+VALUES
+(
+    'CreatedDate'
+    ,'SYSUTCDATETIME()'
+)
+,(
+    'UpdatedDate'
+    ,'SYSUTCDATETIME()'
+)
+,(
+    'UpdatedBy'
+    ,'-1'
+)
+,(
+    'UpdatedByName'
+    ,'SUSER_NAME()'
+);

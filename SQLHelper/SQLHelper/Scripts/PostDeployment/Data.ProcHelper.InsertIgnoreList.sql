@@ -1,0 +1,20 @@
+﻿INSERT INTO ProcHelper.InsertIgnoreList
+(
+    ColumnName
+)
+VALUES
+(
+    'CreatedBy'
+)
+,(
+     'CreatedByMachineName'
+ )
+,(
+     'CreatedByName'
+ )
+,(
+     'UpdatedBy'
+ )
+,(
+     'UpdatedByName'
+ );

@@ -1,0 +1,42 @@
+﻿INSERT INTO ProcHelper.ExampleValues
+(
+    DataTypeName
+    ,Value
+)
+VALUES
+(
+    'int'
+    ,'1'
+)
+,(
+    'bit'
+    ,'1'
+)
+,(
+    'datetime'
+    ,'SYSUTCDATETIME()'
+)
+,(
+    'decimal'
+    ,'1.1'
+)
+,(
+    'varchar'
+    ,'''var'''
+)
+,(
+    'nvarchar'
+    ,'''£nvar'''
+)
+,(
+    'uniqueidentifier'
+    ,'NEWID()'
+)
+,(
+    'tinyint'
+    ,'1'
+)
+,(
+    'smallint'
+    ,'1'
+);
