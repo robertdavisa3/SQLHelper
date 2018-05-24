@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLHelper", "SQLHelper\SQLHelper.sqlproj", "{780CDA4D-A4D9-4460-978E-9F8A4F78B148}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLHelper_UnitTests", "SQLHelper_UnitTests\SQLHelper_UnitTests.sqlproj", "{B4FFB481-56E9-469E-B761-D4738F97AF10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{780CDA4D-A4D9-4460-978E-9F8A4F78B148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780CDA4D-A4D9-4460-978E-9F8A4F78B148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780CDA4D-A4D9-4460-978E-9F8A4F78B148}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{780CDA4D-A4D9-4460-978E-9F8A4F78B148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780CDA4D-A4D9-4460-978E-9F8A4F78B148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780CDA4D-A4D9-4460-978E-9F8A4F78B148}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B4FFB481-56E9-469E-B761-D4738F97AF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FFB481-56E9-469E-B761-D4738F97AF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FFB481-56E9-469E-B761-D4738F97AF10}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B4FFB481-56E9-469E-B761-D4738F97AF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FFB481-56E9-469E-B761-D4738F97AF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4FFB481-56E9-469E-B761-D4738F97AF10}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1530A46F-8AFE-45B8-AAE1-9416D8E1B6FD}
+	EndGlobalSection
+EndGlobal
