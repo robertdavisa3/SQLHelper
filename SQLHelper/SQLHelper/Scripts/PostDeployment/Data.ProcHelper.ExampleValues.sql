@@ -17,6 +17,10 @@ VALUES
     ,'SYSUTCDATETIME()'
 )
 ,(
+    'date'
+    ,'SYSUTCDATETIME()'
+)
+,(
     'decimal'
     ,'1.1'
 )

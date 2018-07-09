@@ -64,6 +64,7 @@
     <Folder Include="Security\" />
     <Folder Include="Scripts" />
     <Folder Include="Scripts\PostDeployment" />
+    <Folder Include="ProcHelper\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
@@ -75,6 +76,10 @@
   <ItemGroup>
     <None Include="SQLHelper.publish.xml" />
     <None Include="Scripts\PostDeployment\Data.ProcHelper.InsertIgnoreList.sql" />
+    <None Include="Scripts\PostDeployment\Data.ProcHelper.UpdateIgnoreList.sql" />
+    <None Include="Scripts\PostDeployment\Data.ProcHelper.ExampleValues.sql" />
+    <None Include="Scripts\PostDeployment\Data.ProcHelper.DefaultValues.sql" />
+    <None Include="Scripts\PostDeployment\Data.ProcHelper.AlwaysIgnoreList.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Stored Procedures\LongPrint.sql" />
@@ -85,5 +90,6 @@
     <Build Include="ProcHelper\Tables\InsertIgnoreList.sql" />
     <Build Include="Security\ProcHelper.sql" />
     <PostDeploy Include="Scripts\PostDeployment\PostDeployment.sql" />
+    <Build Include="ProcHelper\Stored Procedures\Private_GetColumns.sql" />
   </ItemGroup>
 </Project>
