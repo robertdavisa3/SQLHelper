@@ -65,6 +65,7 @@
     <Folder Include="Scripts" />
     <Folder Include="Scripts\PostDeployment" />
     <Folder Include="ProcHelper\Stored Procedures\" />
+    <Folder Include="ProcHelper\Functions\" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
@@ -91,5 +92,7 @@
     <Build Include="Security\ProcHelper.sql" />
     <PostDeploy Include="Scripts\PostDeployment\PostDeployment.sql" />
     <Build Include="ProcHelper\Stored Procedures\Private_GetColumns.sql" />
+    <Build Include="ProcHelper\Functions\Private_CreateStringOfLength.sql" />
+    <Build Include="ProcHelper\Functions\Private_CreateRevisionLine.sql" />
   </ItemGroup>
 </Project>
