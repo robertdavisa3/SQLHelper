@@ -1,19 +1,7 @@
 ﻿
 /*
 EXAMPLE EXECUTION
-DECLARE @Columns TABLE
-(
-    ColumnName sysname
-    ,ColumnDefinition sysname
-    ,IsNullable BIT
-    ,is_identity BIT
-    ,column_id INT
-    ,IgnoreInsert BIT
-    ,IgnoreUpdate BIT
-    ,DataType sysname
-    ,ExampleValue NVARCHAR(400)
-    ,DefaultValue NVARCHAR(400)
-);
+DECLARE @Columns ColumnInformation;
 
 INSERT INTO @Columns
 (
